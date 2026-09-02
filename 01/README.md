@@ -47,7 +47,8 @@ Google Ads e Meta corrigem os números de conversão de até 30 dias atrás. Ent
 
 Sozinho: tenta de novo algumas vezes, indo com calma crescente entre tentativas (não martela a API). Se ainda assim não conseguir, marca aquela execução como falha no "diário de bordo" e segue pros outros clientes e fontes — não trava o resto. Na próxima rodada diária, ele tenta buscar de novo, e como a janela de 30 dias cobre isso, o dado acaba entrando sozinho, sem ninguém precisar mexer.
 
-Quando chamar alguém: se a falha continuar por mais de uma rodada seguida, se estiver perto de sair da janela de 30 dias sem conseguir recuperar, ou se acontecer em vários clientes ao mesmo tempo (sinal de que o problema é maior que uma API fora do ar). Uma queda de 6 horas isolada, à noite, sozinha, normalmente **não** precisa acordar ninguém — o próprio sistema se recupera no dia seguinte.
+Quando chamar alguém: se a falha continuar por mais de uma rodada seguida, se estiver perto de sair da janela de 30 dias sem conseguir recuperar, ou se acontecer em vários clientes ao mesmo tempo (sinal de que o problema é maior que uma API fora do ar). Uma queda de 6 horas isolada, à noite, sozinha, normalmente **não** precisa acordar ninguém — o próprio sistema se recupera no dia seguinte. É da minha cultura, principalmente ocupando uma posição de liderança - resolver isso sozinho na hora se necessário/possível, prezando em não levar problemas que eu mesmo poderia resolver para a minha equipe fora de hora. 
+
 
 ### (c) Uma plataforma renomeou um campo e alguns clientes passaram a receber `null` sem erro nenhum. Quando e como a gente descobre?
 
