@@ -16,14 +16,13 @@ Todas as decisões, uma por uma, com o porquê, estão em [`DECISOES.md`](DECISO
 ---
 
 ## 1. Quanto tempo eu gastei, de verdade
+Cerca de 10 horas, divididas em 3 dias. Produção feita no meu tempo livre. Usei mais o tempo pesquisando e tentando entender alguns conceitos prévios do que realmente codando/escrevendo. 
 
-`[PREENCHER: tempo real gasto revisando o enunciado, conversando com a IA, decidindo o corte de escopo e validando a entrega]`
-
-Uso IA de forma intensa no meu fluxo de trabalho (ver seção 4), então o tempo de relógio não equivale a "tempo digitando código". Prefiro registrar o número real do que estimar pra parecer mais rápido do que foi.
+Abusei do tempo por ter prazo para isso, e algo que na vida real acontece muito. Muitas vezes um dev pode estipular fazer uma task em X horas e entregar a task com mais horas de trabalho do que o estipulado, porém ainda dentro do prazo. 
 
 ## 2. O que ficou de fora, e o que eu faria com mais tempo
 
-**O item 03 inteiro** foi cortado por decisão minha — está explicado com detalhe em [`03/README.md`](03/README.md). Resumindo: é o item mais barato de refazer isolado depois (não depende de infraestrutura), então preferi usar o tempo garantindo que o item de engenharia funcionasse de ponta a ponta e que as respostas de arquitetura e IA fossem diretas, em vez de espalhar atenção pelos quatro.
+**O item 03 inteiro** foi cortado por decisão minha — está explicado com detalhe em [`03/README.md`](03/README.md). Resumindo: é o item mais barato de refazer isolado depois (não depende de infraestrutura), então preferi usar o tempo garantindo que o item de engenharia funcionasse de ponta a ponta e que as respostas de arquitetura e IA fossem diretas, em vez de espalhar atenção pelos quatro. Poderia ter deixado o item 04 de fora também, ou no lugar do item 3 - entretanto, a empresa tem cultura de IA first. 
 
 Dentro do que foi entregue, deixei de fora (e documentei onde, no README de cada pasta):
 
